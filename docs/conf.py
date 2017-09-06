@@ -30,6 +30,7 @@ release = ''
 
 # General configuration -------------------------------------------------------
 
+autodoc_default_flags = ['members']
 exclude_patterns = ['_build']
 extensions = [
     'sphinx.ext.autodoc',
@@ -37,6 +38,7 @@ extensions = [
 ]
 language = None
 master_doc = 'index'
+nitpicky = True
 pygments_style = 'sphinx'
 source_suffix = '.rst'
 templates_path = ['_templates']
